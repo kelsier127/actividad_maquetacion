@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(234, 234, 234);
+    padding: 0;
+    margin: 0;
+}
+.flex-header{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0 25px 0;
+}
+
+.logo{
+    margin-bottom: 15px;
+}
+.unstyle {
+    all: unset;
+}
+
+.navA{
+    margin: 25px;
+    padding: 5px;
+    background-color: rgba(78, 78, 78);
+    color:white;
+    border-radius:5px;
+}
+
+.selected{
+    background-color: #e54c08;  
+    margin: 25px;
+    padding: 5px;
+    color:white;
+    border-radius:5px;  
+}
+
+.selected:hover{
+    background-color: #c53f06;
+    cursor:pointer;
+}
+
+.navA:hover{
+    background-color: #3c3b3b;
+    cursor:pointer;
+}
+
+.slider-index{
+    width: 100%;
+}
+
+.info-container{
+    background-color: rgb(234, 234, 234);
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'title title title title title title '
+    'article1 article1 article1 article2 article2 article2'
+    'section1 section1 section2 section2 section3 section3'
+    'section4 section4 section5 section5 section6 section6';
+    gap:10px;
+    padding:0 20%;
+}
+
+.article-container{
+    display: flex;
+}
+
+.negreta{
+    font-weight: bold;
+}
+.cursiva{
+    font-style: italic;
+}
+
+.section-container{
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(234, 234, 234);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    margin-top: 50px;
+}
+
+footer div {
+    padding: 10px;
+    border: 1px solid black;
+}
